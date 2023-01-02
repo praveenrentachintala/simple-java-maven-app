@@ -30,7 +30,8 @@
         <configuration>
              <source>1.8</source>
              <target>1.8</target>
-        </configuration>  
+        </configuration>
+        </plugin>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
@@ -38,7 +39,6 @@
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
-      </plugin>
     </plugins>
   </build>
 </project>
